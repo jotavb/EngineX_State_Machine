@@ -19,3 +19,5 @@ Source Files -> Game -> Private
 ## Implementation 
 
 Finite State Machine / GameObject / GameObjectsHandle / Singleton / HashMap
+
+Simulate a Traffic Light using States
