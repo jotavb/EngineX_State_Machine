@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{ccdbdf11-c381-4f92-bf67-ba05fce45ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Public">
+      <UniqueIdentifier>{75c2830e-ea9b-4f39-a9f0-30582628d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{3f73a39c-59f6-4cb6-a0b8-d251275c643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public">
+      <UniqueIdentifier>{6dcd4022-feb1-45d9-a4a5-3b9cee46ecd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private">
+      <UniqueIdentifier>{9e4c503e-26a9-484b-be5c-d94f35576fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\FSM">
+      <UniqueIdentifier>{4a832d0b-c46f-4f67-8086-0f66213fb138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObject">
+      <UniqueIdentifier>{98eae1e4-d9c2-4fd3-b5ca-023d1152b861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\FSM\TrafficLight">
+      <UniqueIdentifier>{9cb33e64-082a-48e5-a676-95d845acc111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObject\TrafficLight">
+      <UniqueIdentifier>{f4b56701-7846-4250-bdc2-f7e1fdc27a1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Public\EngineInterface.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\EngineTypes.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameInterface.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\SDL.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\HashMap.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Singleton.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Utils.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSM.h">
+      <Filter>Source Files\Game\Private\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMState.h">
+      <Filter>Source Files\Game\Private\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObject.h">
+      <Filter>Source Files\Game\Private\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjectHandle.h">
+      <Filter>Source Files\Game\Private\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjectManager.h">
+      <Filter>Source Files\Game\Private\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMState_TrafficLightBase.h">
+      <Filter>Source Files\Game\Private\FSM\TrafficLight</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMState_TrafficLightStop.h">
+      <Filter>Source Files\Game\Private\FSM\TrafficLight</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMState_TrafficLightAlert.h">
+      <Filter>Source Files\Game\Private\FSM\TrafficLight</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\FSMState_TrafficLightGo.h">
+      <Filter>Source Files\Game\Private\FSM\TrafficLight</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\TrafficLight.h">
+      <Filter>Source Files\Game\Private\GameObject\TrafficLight</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Private\Main.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Game.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Random.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSM.cpp">
+      <Filter>Source Files\Game\Private\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMState.cpp">
+      <Filter>Source Files\Game\Private\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObject.cpp">
+      <Filter>Source Files\Game\Private\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjectHandle.cpp">
+      <Filter>Source Files\Game\Private\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjectManager.cpp">
+      <Filter>Source Files\Game\Private\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMState_TrafficLightStop.cpp">
+      <Filter>Source Files\Game\Private\FSM\TrafficLight</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMState_TrafficLightAlert.cpp">
+      <Filter>Source Files\Game\Private\FSM\TrafficLight</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\FSMState_TrafficLightGo.cpp">
+      <Filter>Source Files\Game\Private\FSM\TrafficLight</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\TrafficLight.cpp">
+      <Filter>Source Files\Game\Private\GameObject\TrafficLight</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
