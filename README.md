@@ -6,7 +6,7 @@ This is one of the C++ assignment that I did at Vancouver Film School Programmin
 
 Open the solution and make sure you are running x86 and the Windows SDK is 10.0.18362.0 (Version that I tested)
 
-### Prerequisites
+### Requirement
 
 Windows
 
@@ -18,12 +18,4 @@ Source Files -> Game -> Private
 
 ## Implementation 
 
-Finite State Machine
-GameObject
-GameObjectsHandle
-Singleton
-HashMap
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Finite State Machine / GameObject / GameObjectsHandle / Singleton / HashMap
