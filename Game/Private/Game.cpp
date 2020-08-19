@@ -9,9 +9,6 @@
 
 const char* gWindowName = "Traffic Light";
 
-const float gMissileEnemyRespawnTime = 1.0f;
-const float gMissileHomingIntervalTime = 2.0f;
-
 MyGame::MyGame()
 	: mEngine( nullptr )
 	, mRelease( false )
